@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作業7</title>
+	<style type="">
+
+
+		table,th,td{
+			border: 1px solid grey;
+		}
+
+	</style>
+</head>
+<body>
+
+<table>
+	<caption>橘子的單價和等級的關係如下:</caption>
+	<tr>
+		<th>等級</th>
+		<th>40公斤以內</th>
+		<th>超出40公斤</th>
+		<th>超出100斤</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>30元/公斤</td>
+		<td>25元/公斤</td>
+		<td>20元/公斤</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>25元/公斤</td>
+		<td>20元/公斤</td>
+		<td>15元/公斤</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>20元/公斤</td>
+		<td>15元/公斤</td>
+		<td>10元/公斤</td>
+	</tr>
+</table>
+
+	<form action="07orangeIf.php" method="get">
+		<table>
+			<caption>歡迎下訂</caption>
+			<tr>
+				<td>購買等級：</td>
+				<td> <input type="number" maxlength="1" name="level"> </td>
+			</tr>
+
+			<tr>
+				<td>購買公斤數：</td>
+				<td> <input type="number"  name="kg"></td>
+			</tr>
+
+
+		</table>
+		<div class="button">
+			<input type="submit" value="送出">
+			<input type="reset" value="重新設定">
+		</div>
+
+	</form>
+	
+</body>
+</html>

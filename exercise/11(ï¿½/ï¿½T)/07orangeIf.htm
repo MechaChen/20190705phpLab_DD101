@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table border=1>
+        <tr>
+            <td>等級</td>
+            <td>40公斤以內</td>
+            <td>超出40公斤</td>
+            <td>超出100公斤</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>30元/公斤</td>
+            <td>25元/公斤</td>
+            <td>20元/公斤</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>25元/公斤</td>
+            <td>20元/公斤</td>
+            <td>15元/公斤</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>20元/公斤</td>
+            <td>15元/公斤</td>
+            <td>10元/公斤</td>
+        </tr>
+    </table>
+    <div>
+    <hr>
+        <table>
+            <caption>計價</caption>
+            <form action="07orangeIf.php" method="GET">
+                    <tr>
+                        <td>等級：</td>
+                        <td class="num"><input type="text" name="level"></td>
+                    </tr>
+                    <tr>
+                        <td>公斤：</td>
+                        <td class="num"><input type="text" name="number"></td>
+                    </tr>
+        </table>
+
+                <div class="button">	
+                    <input type="submit" value="計算">
+                    <input type="reset" value="重新設定">
+                </div>	
+            </form>
+            
+
+        </div>
+</body>
+</html>

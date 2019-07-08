@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		form{
+			margin:auto;
+			width:400px;
+			
+		}
+		table{
+			width:400px;
+		}
+		h2{
+			text-align: center;
+		}
+		.button{
+			text-align: center;
+			padding: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<form action="07orangeIf.php" method="post">
+		<h2>橘子計價</h2>
+		<table border 2px>
+			<tr>
+				<td>等級:</td>
+				<td><input type="text" name="grade">輸入等級(1~3)</td>
+			</tr>
+			<tr>
+				<td>公斤:</td>
+				<td><input type="text" name="kg"> kg</td>
+			</tr>
+		</table>
+		<div class="button">
+			<input type="submit" name="ad" value="計算">
+			<input type="reset" name="reset" value="重新設定">
+		</div>
+	</form>
+</body>
+</html>

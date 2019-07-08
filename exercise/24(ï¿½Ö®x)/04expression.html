@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>expression_orange</title>
+	<style type="text/css">
+		.orange{
+			width: 420px;
+			margin: 0 auto 10px;
+		}
+
+		caption{
+			margin-bottom: 20px;
+		}
+		
+		.orange, .orange td{
+			border: 1px solid #888;
+		}
+
+		.orange input{
+			width: 50px;
+		}
+
+		.first_col{
+			width: 120px;
+		}
+
+		.second_col{
+			width: 300px;
+		}
+
+		.btn{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<form action="04expression.php">
+		<table class="orange"> 
+			<caption>計價</caption>
+			<tr>
+				<td class="first_col">單價：</td>
+				<td class="second_col"><input type="text" name="price" maxlength="3"> 最多3個文數字</td>
+			</tr>
+			<tr>
+				<td>數量：</td>
+				<td><input type="text" name="quantity" maxlength="3"> 最多3個文數字</td>
+			</tr>
+		</table>
+		<div class="btn">
+			<input type="submit" value="計算">
+			<input type="reset" value="重新設定">
+		</div>
+	</form>
+</body>
+</html>

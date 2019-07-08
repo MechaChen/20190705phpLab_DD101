@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		table {
+			margin: 20px auto;
+
+		}
+
+		th {
+			text-align: center;
+		}
+		
+		caption {
+			padding: 20px;
+		}
+
+		table,tr,th,td {
+			border: 1px solid black;
+		}
+
+		.btn {
+			text-align: center;
+			padding: 20px 0px;
+		}
+	</style>
+</head>
+<body>
+	<form action="phpLab/08orangeSwitch.php" method="POST">
+		<table>
+			<tr>
+				<th>等級</th>
+				<th>40公斤以內</th>
+				<th>超出40公斤</th>
+				<th>超出100公斤</th>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>30元/公斤</td>
+				<td>25元/公斤</td>
+				<td>20元/公斤</td>
+			</tr>
+			<tr>
+				<th>2</th>
+				<td>25元/公斤</td>
+				<td>20元/公斤</td>
+				<td>15元/公斤</td>
+			</tr>
+			<tr>
+				<th>3</th>
+				<td>20元/公斤</td>
+				<td>15元/公斤</td>
+				<td>10元/公斤</td>
+			</tr>
+		</table>
+
+		<table>
+			<caption>計價</caption>
+			<tr>
+				<th>購買等級：</th>
+				<td><input type="text" name="level" maxlength="1" size="1"></td>
+			</tr>
+			<tr>
+				<th>公斤數：</th>
+				<td><input type="text" name="kilo" maxlength="5" size="1"></td>
+			</tr>
+		</table>
+		<div class="btn">
+			<input type="submit" value="計算">
+			<input type="reset" value="重新設定">
+		</div>
+	</form>
+</body>
+</html>

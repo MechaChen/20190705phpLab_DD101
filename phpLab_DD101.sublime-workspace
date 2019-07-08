@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/memInsert_ajax/memInsert.html",
+			"settings":
+			{
+				"buffer_size": 1946,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/memInsert_ajax/memInsert.html",
+			"settings":
+			{
+				"buffer_size": 2908,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin/index.php",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remove package",
+				"Package Control: Remove Channel"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/c/inetpub/wwwroot/phpLab_DD101",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/memInsert_ajax",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/memInsert_ajax",
+		"/c/inetpub/wwwroot/phpLab_DD101/oop",
+		"/c/inetpub/wwwroot/phpLab_DD101/session_C"
+	],
+	"file_history":
+	[
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/memInsert_ajax/memInsert.php",
+		"/D/class/php(class)/安裝/MySQL_bak/books(utf8).sql",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/memInsert_ajax/memInsert.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/memInsert_ajax/memInsert.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/memInsert_ajax/memInsert.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/memInsert.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/GetResponseText.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/GetResponseText.css",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/getMore_html.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/getMore_html.htm",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ObjectIntroduction.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/memInsert.htm",
+		"/C/inetpub/wwwroot/phpLab_DD101/phpLab_DD101.sublime-project",
+		"/C/apache-tomcat-7.0.53/webapps/AjaxLab_Java_DA101_C/WEB-INF/web.xml",
+		"/D/class/Ajax_2016/json.js",
+		"/D/000_class_mm/CD106/slider/slider.html",
+		"/D/000_class_mm/CD106/slider/slider.css",
+		"/C/inetpub/wwwroot/phpMyAdmin-4.8.5-all-languages/config.inc.php",
+		"/D/class/Ajax_2016/xml簡介_Ajax/books-dtd-internal.xml",
+		"/D/class/Ajax_2016/xml簡介_Ajax/booksOrder-schema-Russion.xsd",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/getMore_XML.htm",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/getMore_XML.php",
+		"/D/class/Ajax_2016/xml簡介_Ajax/booksOrder-schema.xml",
+		"/D/class/Ajax_2016/sample.xml",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/xml/sample.xml",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin/index.php",
+		"/D/class/Ajax_2016/moreData.txt",
+		"/D/class/Ajax_2016/moreData.xml",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin/lightBox.inc",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin/prodList.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin/ajaxLogin.js",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/getLoginInfo.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/prodList.php",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_pdrbgki0fujhfs8jskcbgq4rff",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/prodList.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/pdo/connect_C.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogout.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/PostResponseText.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/ajaxLogin.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/file_C/fileUpload.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/PostResponseText.php",
+		"/D/000_class_mm/CD103/HTML_LAB/memAdd_C.html",
+		"/C/inetpub/wwwroot/phpLab_CD106/AjaxLab_C/ajaxLogin.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/GetResponseText.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/GetResponseText.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/GetResponseText.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/cartToDb.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/file_C/fileUploadMany_2.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/file_C/fileUploadMany.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/prodInsert_upload_img_no.php",
+		"/C/inetpub/wwwroot/phpLab_CD106/file_C/fileUpload.html",
+		"/C/inetpub/wwwroot/phpLab_DD101/prod_insert_image_no/prodInsert_upload_img_no_2.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/prod_insert_image_no/prodInsert_upload_img_no.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/file_C/fileUpload.php",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/php.ini",
+		"/c/inetpub/wwwroot/phpLab_DD101/isset.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/cart_C/cartUpdate.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/login.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/login.html",
+		"/C/inetpub/wwwroot/phpLab_DD101/cart_C/cartToDb.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/cartShow.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/cartAdd.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/prodList.php",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_jbmghrgko5r6765r60a9i7u2of",
+		"/C/Users/Java/Downloads/prod_insert_image_no/prodInsert_upload_img_no.php",
+		"/C/Users/Java/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/templates/html.tmpl",
+		"/C/Users/Java/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/templates/html - 複製.tmpl",
+		"/D/temp/SideBarEnhancements.json",
+		"/D/000_class_java/DA103/test.html",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/bindColumn_C.php",
+		"/C/apache-tomcat-7.0.53/conf/tomcat-users.xml",
+		"/C/apache-tomcat-7.0.53/conf/web.xml",
+		"/c/inetpub/wwwroot/phpLab_DD101/test.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/cart_C/cartAdd.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart/cartShow.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/cart_C/cartShow.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/QRcode/QRcode_getInfo.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/session_C/sessionLogin.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/session_C/sessionLogin.html",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_t3i0a2h882nt4a5f4gt98auq51",
+		"/c/inetpub/wwwroot/phpLab_DD101/session_C/sessionMember.php",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_1pusbflnb5unk0g12j8dmacib9",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_v1lmmo6br7bfu1jfk0a8c0at50",
+		"/c/inetpub/wwwroot/phpLab_DD101/session/sessionMember.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/session/sessionLogin.php",
+		"/C/inetpub/wwwroot/phpLab_CD106/session_C/sessionMember.php",
+		"/C/inetpub/wwwroot/anotherPage.php",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_l4aekeqo33jmkh7ep34t09al8i",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_gnr9k1hhe1hp3dqr29ml6uoa80",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_ffms7leb0smhdnipaqbvc7p6v6",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_eec1dqak9cjbk6p4sihhribqgr",
+		"/C/inetpub/wwwroot/login.php",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_dcem4rj2svq4vecu7gt7u3ir6o",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_39ck6tsudt0vf34d5imngjnqem",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_5oj5a8c51ciap43hq8nq68qug8",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_6slqf116csusgska4ebsdlko42",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_7ljl5m24ovtfeqlfabrfnefju2",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_8tdrm93hma8hs58dj2k9a2rm03",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_9tr86iuinflcn4pq1joamepdrd",
+		"/C/php-7.3.2-nts-Win32-VC15-x64/tmp/sess_4goo8n9o2rsf80662va0hulg90",
+		"/c/inetpub/wwwroot/phpLab_DD101/QRcode/QRcode_getStoreInfo.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/QRcode/QRcode_getQRcode.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart/prodList.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/prodUpdateToDb.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/prodUpdate.html",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/prodUpdate.php",
+		"/C/inetpub/wwwroot/phpLab_CD106/QRcode_example - 複製/QRcode_getStoreInfo.php",
+		"/C/inetpub/wwwroot/phpLab_CD106/QRcode_example - 複製/QRcode_getQRcode.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/cart_C/prodUpdateToDb.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/cart_C/prodQuery.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/prepare_C.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/cart_C/login.php",
+		"/D/class/php(class)/練習/cart/prodUpdate.html",
+		"/C/inetpub/wwwroot/phpLab_DD101/books(utf8).sql",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/connectSample.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/pdo/exec_C.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/cart_C/connectBooks.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/fetchAll_C.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/fetchObject_C.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/fetchColumn_C.php",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/query.php",
+		"/c/inetpub/wwwroot/phpLab_DD101/pdo/000_create_user.txt",
+		"/c/inetpub/wwwroot/phpLab_DD101/array_C.php",
+		"/D/class/php(class)/PDO_options.txt",
+		"/C/inetpub/wwwroot/phpLab_DD101/pdo/exec_C.php",
+		"/D/class/php(class)/000_create_user.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"email",
+			"\"]",
+			"[",
+			"_REQUEST",
+			"memId",
+			"Id",
+			"memName",
+			"memId",
+			"/>",
+			".",
+			"$",
+			"<td></td>",
+			"John",
+			"4",
+			"window",
+			"empno",
+			"data2",
+			"data1",
+			"memId",
+			"th",
+			"table",
+			"Text",
+			"memId",
+			"I",
+			"memId",
+			"Id",
+			"text",
+			"upFile",
+			"members",
+			"orderMemNo",
+			"gui",
+			"text",
+			"0",
+			"prodRow",
+			">",
+			"text",
+			"output_buffer",
+			"memRow",
+			"memId",
+			"\"]",
+			"prodRow[\"",
+			"psn",
+			"Id",
+			"pname",
+			"name=\"\">",
+			"<?php",
+			" ",
+			"td",
+			"row",
+			"pdoStatement",
+			"row",
+			"\"];",
+			"[\"",
+			"</td>",
+			"$",
+			", \"",
+			"\",",
+			"\";",
+			"echo \"",
+			"br",
+			"$row",
+			"cd106g1",
+			"extension = pdo",
+			"extension",
+			"Person",
+			"name",
+			"m2",
+			"m1",
+			"1",
+			"HA",
+			"p2",
+			"1",
+			"  ",
+			"a",
+			"x",
+			"(",
+			"2Num",
+			");",
+			"105",
+			"i ",
+			"Y-m-d",
+			"mbstring",
+			"extension",
+			"strpos($str, 'cd')",
+			"str",
+			"cd",
+			"ceil",
+			"$kg *=",
+			"i",
+			"total",
+			"echo \"I love PHP~~~<br>\";",
+			"$amount",
+			"elseIf",
+			"++",
+			">++",
+			"x",
+			",",
+			"+",
+			".",
+			",",
+			".",
+			"$address =",
+			"&",
+			"$a > 4 and 10>5",
+			"WWW",
+			"dog",
+			"a",
+			"3 <= 4",
+			":",
+			"! 3",
+			"false",
+			"3 <= 4",
+			"xor 10>5",
+			"3 <= 4",
+			"$a < 4",
+			"$a > 4",
+			"===",
+			"$a>4",
+			"$a",
+			"/",
+			"*",
+			"php",
+			"%",
+			"error_log",
+			"_GET",
+			"error_reporting",
+			"All",
+			"display_err"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101/memInsert_ajax/memInsert.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1734,
+								1734
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/memInsert_ajax/memInsert.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1924,
+								1924
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/c/inetpub/wwwroot/phpLab_DD101/AjaxLab_DD101_C/ajaxLogin/index.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "phpLab_DD101.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

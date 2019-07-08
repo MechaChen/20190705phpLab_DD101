@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	tr,td,table{
+		border:1px solid #aaaa;
+	
+	}
+	.button{
+		text-align: center;
+	}
+	div{
+		margin: auto;
+		width: 246px;
+	}
+	
+
+
+	</style>
+
+</head>
+<body>
+	<div>
+		<form action="03memberShow.php" method="GET">
+			<table>
+				<caption>申請會員</caption>
+				<tr>
+					<td class="mean">姓名</td>
+					<td class="anser"><input type="text" name="name"><br></td>
+				</tr>
+				<tr>
+					<td class="mean">帳號:</td>
+					<td class="anser"><input type="text" name="account"></td>
+				</tr>
+				<tr>
+					<td class="mean">密碼:</td>
+					<td class="anser"><input type="password" name="password"></td>
+				</tr>
+				<tr>
+					<td class="mean">e-mail:</td>
+					<td class="anser"><input type="mail" name="mail"></td>
+				</tr>
+				<tr>
+					<td class="mean">性別:</td>
+					<td class="anser">
+						<input type="radio" name="sex" ID="male">男
+						<input type="radio" name="sex" ID="female">女
+			</td>
+				</tr>
+				<tr>
+					<td class="mean">生日:</td>
+					<td class="anser"><input type="text" name="birthday" placeholder="YYYY-MM-DD"></input></td>
+				</tr>
+				<tr>
+					<td class="mean">連絡電話:</td>
+					<td class="anser"><input type="phone" name="phone"></td>
+				</tr>
+			</table>
+
+		<br>
+		<div class="button">
+		<input type="submit" vale="新增">
+		<input type="reset" value="重新設定">
+		</div>
+		</form>
+
+
+	</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		table{
+			border: 1px black solid;
+			width: 600px;
+		}
+
+		table td{
+			border: 1px black solid;
+		}
+		caption{
+			font-size: 20px;
+		}
+		.button{
+			width: 600px;
+			margin-top: 20px;
+			text-align: center;
+		}
+		.button_insidebox{
+			width: 200px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	
+	<div>	
+		<form method="GET" action="04expression.php">
+			<table>
+				<caption>計價</caption>
+				<tr>
+					<td>單價:</td>
+					<td>
+						<input type="text" name="memId" maxlength="3">最多3個文數字
+					</td>		
+				</tr>
+				<tr>
+					<td>數量:</td>
+					<td>
+						<input type="text" name="memPsw" maxlength="3">最多3個文數字
+					</td>
+				</tr>
+			</table>
+
+			<div class="button">
+				<div class="button_insidebox">
+						<input type="submit" value="計算">
+						<input type="reset" value="重新設定">		
+				</div>
+			</div>
+
+		</form>
+	</div>
+
+
+</body>
+</html>

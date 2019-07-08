@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>作業三:表單欄位變數練習</title>
+	<style type="text/css">
+		table {
+			border: 1px solid grey;
+			width: 30%;
+			margin: 0 auto;
+		}
+
+
+		td {
+			border: 1px solid grey;
+		}
+
+
+		.button {
+			text-align: center;
+			padding-top: 40px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<form action="03memberShow.php" method="get">
+		<table>
+			<caption>申請會員</caption>
+			<tr>
+				<td>姓名：</td>
+				<td> <input type="text" name="memName"> </td>
+			</tr>
+
+
+			<tr>
+				<td>賬號 :</td>
+				<td> <input type="text" maxlength="8" name="memId"> 最多8個文數字 </td>
+			</tr>
+
+			<tr>
+				<td>密碼 :</td>
+				<td> <input type="password" maxlength="8" name="memPsw">最多8個文數字 </td>
+			</tr>
+
+			<tr>
+				<td>e-mail :</td>
+				<td> <input type="email" name="email"> </td>
+			</tr>
+
+			<tr>
+				<td>性別</td>
+				<td> <input type="radio" name="sex">男 <input type="radio" name="sex">女
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>生日</td>
+				<td> <input type="date" name="birthday"> </td>
+			</tr>
+
+			<tr>
+				<td>聯絡電話</td>
+				<td> <input type="number" name="tel"> </td>
+			</tr>
+		</table>
+
+
+		<div class="button">
+			<input type="submit" value="新增">
+			<input type="reset" value="重新設定">
+		</div>
+
+
+
+	</form>
+
+
+</body>
+
+</html>

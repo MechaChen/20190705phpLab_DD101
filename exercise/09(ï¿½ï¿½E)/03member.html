@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		
+		table, tr,td { 
+		border:1px solid #333;
+	 }
+	 td + td {
+	 	width:400px;
+	 }
+	
+	form {
+		margin:auto;
+		width: 496px;
+	}
+	 .button{
+		text-align:center;
+		
+	 }
+	 .title {
+	 	text-align: center;
+	 }
+
+	</style>
+</head>
+<body>
+
+	
+<form method="post" action="03memberShow.php">
+
+<table>
+	<div class="title"><p>會員申請</p></div>
+	<tr>
+		<td>姓名：</td>
+		<td><input type="text" name="memName"></td>
+	</tr>
+	<tr>
+		<td>帳號：</td>
+		<td><input type="text" name="account" maxlength="8"></td>
+	</tr>
+	<tr>
+		<td>密碼：</td>
+		<td><input type="password" name="password" maxlength="8"></td>
+	</tr>
+	<tr>
+		<td>e-mail：</td>
+		<td><input type="email" name="email" ></td>
+	</tr>
+	<tr>
+		<td>性別：</td>
+		<td><input type="radio" name="gender" value="男">男<input type="radio" name="gender" value="女">女</td>
+	</tr>
+	<tr>
+		<td>生日：</td>
+		<td><input type="birthday" name="birthday"></td>
+	</tr>
+	<tr>
+		<td>連絡電話：</td>
+		<td><input type="tel" name="tel"></td>
+	</tr>
+
+</table>
+<div class="button">
+<input  type="submit" name="add" value="新增">
+<input  type="reset" name="reset" value="重設">
+</div>
+</form>
+
+
+</body>
+</html>

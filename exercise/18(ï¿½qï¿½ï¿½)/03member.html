@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .apply_for_member {
+        text-align: center;
+        display: inline-block;
+      }
+      table {
+        text-align: left;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="apply_for_member">
+      <h1>申請會員</h1>
+      <form action="03memberShow.php" method="GET">
+        <table border="1">
+          <tbody>
+            <tr>
+              <td>姓名：</td>
+              <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+              <td>帳號：</td>
+              <td><input type="text" name="account" />最多8個文數字</td>
+            </tr>
+            <tr>
+              <td>密碼：</td>
+              <td><input type="password" name="password" />最多8個文數字</td>
+            </tr>
+            <tr>
+              <td>e-mail：</td>
+              <td><input type="email" name="email" /></td>
+            </tr>
+            <tr>
+              <td>性別</td>
+              <td>
+                <input type="radio" name="gender" value="男" id="male" /><label
+                  for="male"
+                  >男</label
+                ><input
+                  type="radio"
+                  name="gender"
+                  value="女"
+                  id="female"
+                /><label for="female">女</label>
+              </td>
+            </tr>
+            <tr>
+              <td>生日：</td>
+              <td><input type="text" name="birth" /></td>
+            </tr>
+            <tr>
+              <td>連絡電話：</td>
+              <td><input type="text" name="telephone" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <button>新增</button>
+        <input type="reset" value="重新設定" />
+      </form>
+    </div>
+  </body>
+</html>

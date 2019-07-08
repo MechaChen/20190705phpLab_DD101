@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	tr,td,table{
+		border:1px solid #aaaa;
+	
+	}
+
+	td{
+		width: 100px;
+	}
+	.num{
+		width: 300px;
+	}
+	div{
+		margin:auto;
+		width:400px;
+	}
+	.button{
+		text-align: center;
+	}
+
+
+
+	</style>
+</head>
+<body>
+	<div>
+		
+		<table>
+			<caption>計價</caption>
+			<form action="06orangeIf.php" method="GET">
+					<tr>
+						<td>單價：</td>
+						<td class="num"><input type="text" name="price">最多3個文數字</td>
+					</tr>
+					<tr>
+						<td>數量：</td>
+						<td class="num"><input type="text" name="number">最多3個文數字</td>
+					</tr>
+		</table>
+
+				<div class="button">	
+					<input type="submit" value="計算">
+					<input type="reset" value="重新設定">
+				</div>	
+			</form>
+			
+
+	</div>
+
+
+
+
+	
+</body>
+</html>

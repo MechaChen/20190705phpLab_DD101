@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>03member</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.form{
+			width: 500px;
+		}
+		table{
+			text-align: left;
+			border: 1px double #a5a5a5;
+			width: 400px;
+			font-size: 14px;
+			color: #333;
+			font-weight: 700;
+			font-family: Microsoft JhengHei;
+		}
+		caption{
+			text-align: center;
+			margin: 10px auto;
+		}
+		tr{
+			height: 20px;
+		}
+		td{
+			height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<form action="03memberShow.php" method="post">
+		<table border="2">
+			<caption>申請會員</caption>
+			<tr>
+				<td>姓名:</td>
+				<td> <input type="text" name="memName"> </td>
+			</tr>
+			<tr>
+				<td>帳號:</td>
+				<td> <input type="text" name="memId">最多8個文數字</td>
+			</tr>
+			<tr>
+				<td>密碼:</td>
+				<td> <input type="password" name="memPsW">最多8個文數字</td>
+			</tr>
+			<tr>
+				<td>e-mail:</td>
+				<td> <input type="email" name="memEmail"></td>
+			</tr>
+			<tr>
+				<td>性別:</td>
+				<td> <input type="radio" name="memGender" value="boy">男 <input type="radio" name="memGender" value="girl">女</td>
+			</tr>
+			<tr>
+				<td>生日:</td>
+				<td> <input type="date" name="memBirth" min="1920-01-01" max="2019-03-22" value="1992-01-01"> </td>
+			</tr>
+			<tr>
+				<td>聯絡電話:</td>
+				<td> <input type="text" name="memTel"> </td>
+			</tr>
+		</table>
+		<input type="submit" value="新增">
+		<input type="reset" value="重新設定">
+	</form>
+	
+</body>
+</html>

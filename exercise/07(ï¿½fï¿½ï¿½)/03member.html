@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		.table {
+			border: 5px solid #aaa;
+		}
+	</style>
+	<title>member</title>
+</head>
+
+<body>
+	<center>
+		<caption>您的會員資料為</caption>
+		<form action="03memberShow.php" method="POST">
+			<table border="1">
+				<tr>
+					<td>姓名：</td>
+					<td><input type="text" name="txtName"></td>
+				</tr>
+				<tr>
+					<td>帳號：</td>
+					<td><input type="text" name="txtId" maxlength="8">最多八個文字數字</td>
+				</tr>
+				<tr>
+					<td>密碼：</td>
+					<td><input type="password" name="txtPsw" maxlength="8">最多八個文字數字</td>
+				</tr>
+				<tr>
+					<td>e-mail：</td>
+					<td><input type="email" name="txtEmail"></td>
+				</tr>
+				<tr>
+					<td>性別：</td>
+					<td>
+						男<input type="radio" name="radGender" value="1" checked>
+						女<input type="radio" name="radGender" value="0">
+					</td>
+				</tr>
+				<tr>
+					<td>生日：</td>
+					<td><input type="date" name="txtDate"></td>
+				</tr>
+				<tr>
+					<td>連絡電話：</td>
+					<td><input type="tel" name="txtTel"></td>
+				</tr>
+
+			</table>
+
+			<input type="submit" value="提交">
+			<input type="reset" value="重設">
+
+		</form>
+	</center>
+
+</html>

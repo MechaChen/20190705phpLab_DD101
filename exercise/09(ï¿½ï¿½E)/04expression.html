@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	 td + td {
+	 	width:400px;
+	 }
+	
+	form {
+		margin:auto;
+		width: 496px;
+	}
+	p, .button {
+		text-align: center;
+	}
+
+		table,tr,td {
+			border:1px solid;
+		}
+
+
+	</style>
+</head>
+<body>
+<form method="get" action="04expression.php">
+	<table>
+		<p>計價</p>
+		<tr>
+			<td>單價：</td>
+			<td><input type="price" name="price" maxlength="3"></td>
+		</tr>
+		<tr>
+			<td>數量：</td>
+			<td><input type="volumn" name="volumn" maxlength="3"></td>
+		</tr>
+	</table>
+	<div class="button">
+<input  type="submit" name="count" value="計算">
+<input  type="reset" name="reset" value="重新設定">
+</div>
+</form>
+	
+</body>
+</html>

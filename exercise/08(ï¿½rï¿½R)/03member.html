@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>homework</title>
+	<style type="text/css">
+		table{
+			border-color: #aaa;
+		}
+		caption{
+			padding-bottom: 20px;
+		}
+		th{
+			width: 150px;
+			text-align: left;
+		}
+		td{
+			width: 500px;
+		}
+		.bt{
+			width: 650px;
+			text-align: center;
+			padding: 10px;
+	</style>
+</head>
+<body>
+	<form action="03memberShow.php" method="get">
+		<table border="2">
+			<caption>申請會員</caption>
+			<tr>
+				<th>姓名 : </th>
+				<td><input type="text" name="memName"></td>
+			</tr>
+			<tr>
+				<th>帳號 : </th>
+				<td><input type="text" name="memId">最多8個文數字</td>
+			</tr>
+			<tr>
+				<th>密碼 : </th>
+				<td><input type="password" name="memPsw"> 最多8個文數字</td>
+			</tr>
+			<tr>
+				<th>e-mail : </th>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<th>性別 : </th>
+				<td><input name="sex" type=radio value="male">男 <input name="sex" type="radio" value="female">女</td>
+			</tr>
+			<tr>
+				<th>生日 : </th>
+				<td><input type="date" name="birthday"> </td>
+			</tr>
+			<tr>
+				<th>聯絡電話 : </th>
+				<td><input type="text" name="tel"> </td>
+			</tr>
+
+		</table>
+		<div class="bt">
+		<button>新增</button>
+		<button>重新設定</button>
+			<!-- <input class="new" type="submit" name="" value="新增">
+			<input class="resublime" type="" name="" value="重新設定"> -->
+		</div>
+		
+	</form>
+
+</body>
+</html>
